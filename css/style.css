@@ -1,0 +1,73 @@
+main{
+    margin: auto;
+    width: 60rem;
+}
+
+.titulo, .participacion{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.sorteo {
+    display: flex;
+}
+
+.numeros{
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: blue;
+    width: 6rem;
+    height: 6rem;
+    border: solid 3px #2a2a2a;
+    border-radius: 5rem;
+}
+
+.numeros p{
+    color: whitesmoke;
+    text-align:center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.75rem;
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: #2a2a2a;
+}
+
+#complementario {
+    background-color: rgb(255, 155, 49);
+}
+
+#Pantalla2 {
+    margin-top: 3rem;
+}
+
+.tab_carton{
+    margin: auto;
+}
+
+th{
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    border: 2px solid #2a2a2a;
+}
+
+th{
+    background-color: skyblue;
+}
+
+#prediccion7{
+    background-color: rgb(251, 170, 84);
+}

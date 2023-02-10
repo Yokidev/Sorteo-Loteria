@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loteria</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main>
+        <section id="Pantalla1">
+            <h1 class="titulo">Loteria</h1>
+            <hr>
+            <div class="sorteo">
+                <div class="numeros"><p id="1"></p></div>
+                <div class="numeros"><p id="2"></p></div>
+                <div class="numeros"><p id="3"></p></div>
+                <div class="numeros"><p id="4"></p></div>
+                <div class="numeros"><p id="5"></p></div>
+                <div class="numeros"><p id="6"></p></div>
+                <div class="numeros" id="complementario"><p id="7"></p></div>
+            </div>
+            <hr>
+            <button onclick="Sorteo()">Sortear</button>
+        </section>
+        <br>
+        <section id="Pantalla2">
+            <h2 class="participacion">Boleto</h2>
+            <div class="carton">
+                <table class="tab_carton">
+                    <tr>
+                        <th id="prediccion1" ></th>
+                        <th id="prediccion2" ></th>
+                        <th id="prediccion3" ></th>
+                        <th id="prediccion4" ></th>
+                        <th id="prediccion5" ></th>
+                        <th id="prediccion6" ></th>
+                        <th id="prediccion7" ></th>
+                    </tr>
+                </table>
+                <hr>
+                <button onclick="Participar()">Participar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/javascript/main.js"></script>
+</body>
+</html>
